@@ -31,7 +31,8 @@ body {
   h1,
   #description,
   #img-caption,
-  #contribution p {
+  #contribution p,
+  #tribute-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,6 +58,7 @@ body {
     padding-bottom: 1%;
   }
 
+
   li {
     padding-top: 1%;
     font-size: 1.3rem;
@@ -67,8 +69,20 @@ body {
     padding-right: 4%;
   }
 
-  strong {
-    padding-top: 15px;
+  
+  #lastp{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+
+  #contribution {
+    padding-top: 80px;
+  }
+
+  #tribute-link {
+    color: #1d7146;
   }
   
 
@@ -108,14 +122,15 @@ body {
         font-size: 1.5rem;
       }
      
-    li {
-        font-size: 0.9rem;  
-        max-width: none;
+    li,
+    p {
+        font-size: 0.9rem; 
     }
 
-    ol  {
-      display: none;
-    
+    #img-caption {
+      font-size: 0.8rem; 
     }
+
+    
     
 }
